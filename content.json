@@ -1,0 +1,614 @@
+{
+  "en": {
+    "title": "Online Russian Lessons with Liuba | Russ with Love",
+    "description": "Learn Russian online with Liuba, a native teacher with 10+ years of experience. Individual lessons, small groups and TORFL/TRKI preparation in English and Italian.",
+    "nav": [
+      "About me",
+      "My approach",
+      "Lessons & prices",
+      "Get in touch"
+    ],
+    "skip": "Skip to content",
+    "languageLabel": "Page language",
+    "eyebrow": "Russian lessons with Liuba",
+    "h1": "Understand Russian.<br><em>Speak with confidence.</em>",
+    "hero": [
+      "I don't just teach Russian. I help my students make sense of complex grammar, overcome the fear of speaking, and turn what they've learned into real communication.",
+      "With patience, clear explanations, and a personalized approach, I help you build confidence and make progress at your own pace."
+    ],
+    "experience": "10+ years of experience · Lessons in English & Italian",
+    "cta": "Book a Free Introductory Call",
+    "cta2": "Book Your Free Introductory Call",
+    "emailSubject": "Free introductory call — Russ with Love",
+    "emailNote": "Send an email request. We'll agree on a time together; this is not a confirmed booking.",
+    "portraitAlt": "Liuba, Russian teacher, smiling beside a whiteboard where she introduces herself in Russian",
+    "caption": "Liuba · Your Russian teacher, from Siberia to Italy",
+    "strip": [
+      "Online, wherever you are",
+      "From your first words to advanced Russian",
+      "A friendly space to learn"
+    ],
+    "aboutLabel": "A little about me",
+    "aboutTitle": "Hi! I'm Liuba.",
+    "aside": "A love of language, art, and the conversations that bring us together.",
+    "about": [
+      "Hi! I'm Liuba, a native Russian teacher from Siberia, now living in Italy.",
+      "I graduated from Irkutsk State Pedagogical University and have over 10 years of experience teaching Russian as a foreign language, from complete beginners to advanced learners.",
+      "I'm constantly developing my teaching skills through professional training courses and international seminars. My qualifications include TORFL/TRKI Exam Preparation and Organization, a joint program involving the Universities of Parma (Italy) and Saint Petersburg (Russia), as well as Teaching Russian Online, a professional development course offered by the University of Parma.",
+      "I also regularly participate in seminars on modern teaching methods and Russian as a foreign language. In March 2025, I led a practical workshop on using artificial intelligence in teaching Russian at the University of Parma.",
+      "Beyond teaching, I'm passionate about art, culture, and travel. I also graduated from the Academy of Fine Arts in Bologna, and I love bringing these interests into my lessons."
+    ],
+    "audienceLabel": "Your starting point",
+    "audienceTitle": "Russian, at your level.",
+    "audienceIntro": "Whether you're just starting out or already speak Russian, I'll help you take the next step.",
+    "audience": [
+      [
+        "Complete beginners",
+        "Start from scratch and speak Russian from your very first lesson."
+      ],
+      [
+        "Intermediate learners",
+        "Strengthen your grammar, expand your vocabulary, and turn your knowledge into confident communication."
+      ],
+      [
+        "Advanced learners",
+        "Improve your fluency, express complex ideas, and speak more naturally."
+      ],
+      [
+        "TORFL/TRKI candidates",
+        "Prepare for your exam with targeted practice, effective strategies, and a structured study plan."
+      ]
+    ],
+    "approachLabel": "My approach",
+    "approachTitle": "Make sense of it.<br>Then make it yours.",
+    "steps": "Understand · Practice · Speak",
+    "approach": [
+      "I believe that understanding a language is just as important as practicing it. That's why my lessons combine clear grammar explanations, practical exercises, and real conversation.",
+      "Every lesson is adapted to your level, goals, and interests. We move at your pace, focusing on what you need most.",
+      "And most importantly, I create a friendly, supportive atmosphere where you can ask questions, make mistakes, and build confidence without pressure."
+    ],
+    "formatsLabel": "Lessons & prices",
+    "formatsTitle": "Find your way to learn.",
+    "individualLabel": "Individual lessons · 60 minutes",
+    "individualTitle": "Your goals. Your pace.<br>Your Russian.",
+    "individual": [
+      "Want to focus on speaking, finally understand tricky grammar, or prepare for an exam?",
+      "In individual lessons, everything is tailored to you — your level, interests, goals, and learning pace.",
+      "You'll get clear explanations, plenty of speaking practice, and individual feedback in a supportive atmosphere."
+    ],
+    "individualMeta": "Online · All levels · English / Italian · 60 minutes",
+    "groupLabel": "Small groups · Up to 6 students",
+    "groupTitle": "Learn together. Speak more.<br>Stay motivated.",
+    "group": [
+      "Enjoy learning with others? Small groups make Russian practice more interactive, social, and affordable.",
+      "You'll learn grammar and vocabulary, practise real conversations, and take part in activities with other learners at a similar level.",
+      "With a maximum of 6 students, everyone has time to speak, ask questions, and receive feedback."
+    ],
+    "groupMeta": "Online · Level-based groups · English / Italian · 90 minutes",
+    "groupLevel": "Groups are organized by level. If you've studied Russian before, we'll assess your level and find a suitable group.",
+    "groupPrice": "€225 per student for the full course: 10 lessons of 90 minutes (15 hours total). €22.50 per lesson.",
+    "pairTitle": "Learn with a partner",
+    "pairText": "A mini-group of 2 gives you more individual attention and someone to practise with. Online · English / Italian · 80 minutes per lesson.",
+    "pricingTitle": "Individual lesson prices",
+    "pairPricingTitle": "Prices for two · per person",
+    "package": "Package",
+    "day": "Daytime",
+    "evening": "Evening",
+    "individualTimes": "Daytime: before 17:30 · Evening: from 17:30",
+    "pairTimes": "Daytime: before 17:00 · Evening: from 17:00",
+    "timezone": "All times are Italy time (Europe/Rome), including seasonal clock changes.",
+    "individualPackages": [
+      "1 hour · 1 lesson",
+      "5 hours · 5 lessons",
+      "10 hours · 10 lessons"
+    ],
+    "pairPackages": [
+      "8 hours · 6 lessons",
+      "20 hours · 15 lessons"
+    ],
+    "priceNote": "We'll discuss the format, schedule and group availability during your introductory call.",
+    "practicalLabel": "The practical details",
+    "practicalTitle": "A little structure.<br>Room for you.",
+    "practical": [
+      [
+        "Online lessons",
+        "Study from wherever you feel comfortable."
+      ],
+      [
+        "Flexible scheduling for individual lessons",
+        "We'll find a regular time that works for both of us."
+      ],
+      [
+        "Questions and feedback",
+        "You'll have opportunities to ask questions and receive guidance during lessons."
+      ],
+      [
+        "Rescheduling individual lessons",
+        "Individual lessons can be rescheduled with at least 24 hours' notice. Late cancellations are charged, with flexibility considered for genuine emergencies."
+      ]
+    ],
+    "callLabel": "Let's start with a conversation",
+    "callTitle": "Your Russian starts<br>with hello.",
+    "call": [
+      "Whether you prefer individual attention or enjoy learning with others, we'll find a format that fits your level, goals, and schedule.",
+      "Tell me a little about your Russian and what you'd like to achieve.",
+      "We'll start with a free 20–30 minute introductory call to get to know each other, talk about your experience with Russian, and discuss your goals.",
+      "I'll explain how my lessons work, answer your questions, and help you choose the learning format that suits you best.",
+      "If you feel we're a good fit, we'll schedule your first lesson and start learning Russian together!"
+    ],
+    "appLabel": "Between lessons",
+    "appTitle": "Keep your Russian growing.",
+    "app": [
+      "I'm the co-creator of Grammilla, a Russian learning app born from my experience as a teacher.",
+      "It combines clear grammar explanations, interactive exercises, vocabulary, and audio to help you understand Russian and practise independently.",
+      "From the Cyrillic alphabet to cases and verbs, Grammilla makes learning more accessible, one step at a time."
+    ],
+    "appCta": "Explore Grammilla",
+    "reviewsTitle": "A few words from my students",
+    "reviewNote": "Excerpts from student reviews, shared with permission.",
+    "translated": "Translated from Italian",
+    "originalEnglish": "Original in English",
+    "reviews": [
+      [
+        "Azra",
+        "She is a very organized and patient teacher, and her explanations are always extremely clear. In a short time, I've been able to understand and learn topics I could never grasp in the past."
+      ],
+      [
+        "Carolina",
+        "I have been studying Russian with Liuba for a year and have felt comfortable from the very first lesson. She is incredibly patient and understanding, and immediately puts you at ease—something that really matters when speaking another language."
+      ],
+      [
+        "Corinne",
+        "Her lessons are both informative and interesting, and I could not speak more highly of her teaching competence."
+      ]
+    ],
+    "faqTitle": "Good to know",
+    "faq": [
+      [
+        "Can I start from zero?",
+        "Yes. Lessons are available for complete beginners as well as intermediate and advanced learners."
+      ],
+      [
+        "Which languages do you teach in?",
+        "I teach Russian with explanations in English or Italian."
+      ],
+      [
+        "What happens on the introductory call?",
+        "The free call lasts 20–30 minutes. We'll talk about your Russian, your goals and a suitable learning format. Request the call by email; we'll agree on a time together."
+      ],
+      [
+        "Can I prepare for TORFL/TRKI?",
+        "Yes. We can work on targeted exam practice, strategies and a structured study plan."
+      ]
+    ],
+    "contactTitle": "Stay in touch.",
+    "socialIntro": "Follow me on social media for Russian language tips, useful expressions, and insights into Russian culture.",
+    "contactText": "Have a question about my lessons? Feel free to send me an email — I'll be happy to help!",
+    "privacyLabel": "Website privacy",
+    "back": "Back to Russ with Love",
+    "privacyTitle": "Privacy on this website",
+    "privacyIntro": "Russ with Love is Liuba's personal Russian teaching website. Contact: grammilla.academy@gmail.com. P.IVA: 04015341201.",
+    "privacySections": [
+      [
+        "Browsing",
+        "This static website does not load analytics, advertising trackers, embedded social media or third-party fonts. It does not set cookies or use browser local storage. GitHub Pages hosts the site and receives technical connection data, including your IP address, when you visit."
+      ],
+      [
+        "Email and external links",
+        "Call requests open your email application. Nothing is submitted by this website. If you send an email, its contents and your address are used to respond to your enquiry and arrange lessons. External social media and Grammilla links take you to separate services with their own privacy practices."
+      ],
+      [
+        "Your questions",
+        "For questions about personal information or requests to access, correct or delete your email correspondence, contact grammilla.academy@gmail.com. This website notice is separate from the Grammilla app privacy policy."
+      ]
+    ]
+  },
+  "it": {
+    "title": "Lezioni di russo online con Liuba | Russ with Love",
+    "description": "Impara il russo online con Liuba, insegnante madrelingua con oltre 10 anni di esperienza. Lezioni individuali, piccoli gruppi e preparazione TORFL/TRKI in italiano e inglese.",
+    "nav": [
+      "Chi sono",
+      "Il mio approccio",
+      "Lezioni e prezzi",
+      "Contatti"
+    ],
+    "skip": "Vai al contenuto",
+    "languageLabel": "Lingua della pagina",
+    "eyebrow": "Lezioni di russo con Liuba",
+    "h1": "Capisci il russo.<br><em>Parla con sicurezza.</em>",
+    "hero": [
+      "Non insegno soltanto il russo. Aiuto i miei studenti a capire la grammatica complessa, superare la paura di parlare e trasformare ciò che hanno imparato in comunicazione reale.",
+      "Con pazienza, spiegazioni chiare e un approccio personalizzato, ti aiuto ad acquisire sicurezza e a fare progressi al tuo ritmo."
+    ],
+    "experience": "Oltre 10 anni di esperienza · Lezioni in inglese e italiano",
+    "cta": "Richiedi una chiamata conoscitiva gratuita",
+    "cta2": "Richiedi la tua chiamata conoscitiva gratuita",
+    "emailSubject": "Chiamata conoscitiva gratuita — Russ with Love",
+    "emailNote": "Invia una richiesta via email. Concorderemo insieme un orario: non è una prenotazione confermata.",
+    "portraitAlt": "Liuba, insegnante di russo, sorride accanto a una lavagna sulla quale si presenta in russo",
+    "caption": "Liuba · La tua insegnante di russo, dalla Siberia all'Italia",
+    "strip": [
+      "Online, ovunque tu sia",
+      "Dalle prime parole al russo avanzato",
+      "Uno spazio accogliente per imparare"
+    ],
+    "aboutLabel": "Qualcosa su di me",
+    "aboutTitle": "Ciao! Sono Liuba.",
+    "aside": "L'amore per le lingue, l'arte e le conversazioni che ci avvicinano.",
+    "about": [
+      "Ciao! Sono Liuba, un'insegnante madrelingua russa originaria della Siberia. Ora vivo in Italia.",
+      "Mi sono laureata all'Università pedagogica statale di Irkutsk e ho oltre 10 anni di esperienza nell'insegnamento del russo come lingua straniera, dai principianti assoluti agli studenti avanzati.",
+      "Continuo a sviluppare le mie competenze didattiche attraverso corsi di formazione professionale e seminari internazionali. Tra le mie qualifiche figurano il corso di preparazione e organizzazione degli esami TORFL/TRKI, un programma congiunto delle Università di Parma e di San Pietroburgo, e il corso di aggiornamento professionale Teaching Russian Online dell'Università di Parma.",
+      "Partecipo inoltre regolarmente a seminari sui metodi didattici moderni e sul russo come lingua straniera. Nel marzo 2025 ho condotto un laboratorio pratico sull'uso dell'intelligenza artificiale nell'insegnamento del russo all'Università di Parma.",
+      "Oltre all'insegnamento, amo l'arte, la cultura e i viaggi. Mi sono anche diplomata all'Accademia di Belle Arti di Bologna e mi piace portare questi interessi nelle mie lezioni."
+    ],
+    "audienceLabel": "Il tuo punto di partenza",
+    "audienceTitle": "Il russo, al tuo livello.",
+    "audienceIntro": "Che tu stia iniziando o parli già russo, ti aiuterò a fare il prossimo passo.",
+    "audience": [
+      [
+        "Principianti assoluti",
+        "Parti da zero e parla russo fin dalla prima lezione."
+      ],
+      [
+        "Livello intermedio",
+        "Consolida la grammatica, amplia il vocabolario e trasforma le tue conoscenze in una comunicazione sicura."
+      ],
+      [
+        "Livello avanzato",
+        "Migliora la scioltezza, esprimi idee complesse e parla in modo più naturale."
+      ],
+      [
+        "Candidati TORFL/TRKI",
+        "Preparati all'esame con esercizi mirati, strategie efficaci e un piano di studio strutturato."
+      ]
+    ],
+    "approachLabel": "Il mio approccio",
+    "approachTitle": "Capiscilo.<br>Poi fallo tuo.",
+    "steps": "Capire · Esercitarsi · Parlare",
+    "approach": [
+      "Credo che capire una lingua sia importante quanto esercitarla. Per questo le mie lezioni combinano spiegazioni grammaticali chiare, esercizi pratici e conversazione reale.",
+      "Ogni lezione è adattata al tuo livello, ai tuoi obiettivi e ai tuoi interessi. Procediamo al tuo ritmo, concentrandoci su ciò di cui hai più bisogno.",
+      "E soprattutto, creo un'atmosfera amichevole e incoraggiante, in cui puoi fare domande, sbagliare e acquisire sicurezza senza pressioni."
+    ],
+    "formatsLabel": "Lezioni e prezzi",
+    "formatsTitle": "Trova il tuo modo di imparare.",
+    "individualLabel": "Lezioni individuali · 60 minuti",
+    "individualTitle": "I tuoi obiettivi. Il tuo ritmo.<br>Il tuo russo.",
+    "individual": [
+      "Vuoi concentrarti sul parlato, capire finalmente la grammatica più difficile o prepararti a un esame?",
+      "Nelle lezioni individuali, tutto è pensato per te: livello, interessi, obiettivi e ritmo di apprendimento.",
+      "Avrai spiegazioni chiare, tanta pratica orale e un feedback individuale, in un'atmosfera accogliente."
+    ],
+    "individualMeta": "Online · Tutti i livelli · Inglese / Italiano · 60 minuti",
+    "groupLabel": "Piccoli gruppi · Massimo 6 studenti",
+    "groupTitle": "Impara insieme. Parla di più.<br>Mantieni la motivazione.",
+    "group": [
+      "Ti piace imparare con gli altri? I piccoli gruppi rendono la pratica del russo più interattiva, conviviale e accessibile.",
+      "Imparerai grammatica e vocabolario, farai pratica di conversazione e parteciperai ad attività con altri studenti di livello simile.",
+      "Con un massimo di 6 studenti, tutti hanno tempo per parlare, fare domande e ricevere feedback."
+    ],
+    "groupMeta": "Online · Gruppi per livello · Inglese / Italiano · 90 minuti",
+    "groupLevel": "I gruppi sono organizzati per livello. Se hai già studiato russo, valuteremo il tuo livello e cercheremo un gruppo adatto.",
+    "groupPrice": "€225 a persona per il corso completo: 10 lezioni da 90 minuti (15 ore totali). €22,50 a lezione.",
+    "pairTitle": "Impara in coppia",
+    "pairText": "Un mini-gruppo di 2 offre più attenzione individuale e una persona con cui fare pratica. Online · Inglese / Italiano · 80 minuti a lezione.",
+    "pricingTitle": "Prezzi delle lezioni individuali",
+    "pairPricingTitle": "Prezzi in coppia · a persona",
+    "package": "Pacchetto",
+    "day": "Diurno",
+    "evening": "Serale",
+    "individualTimes": "Diurno: prima delle 17:30 · Serale: dalle 17:30",
+    "pairTimes": "Diurno: prima delle 17:00 · Serale: dalle 17:00",
+    "timezone": "Tutti gli orari sono riferiti all'Italia (Europe/Rome), con il cambio tra ora solare e legale.",
+    "individualPackages": [
+      "1 ora · 1 lezione",
+      "5 ore · 5 lezioni",
+      "10 ore · 10 lezioni"
+    ],
+    "pairPackages": [
+      "8 ore · 6 lezioni",
+      "20 ore · 15 lezioni"
+    ],
+    "priceNote": "Durante la chiamata conoscitiva parleremo del formato, degli orari e della disponibilità dei gruppi.",
+    "practicalLabel": "I dettagli pratici",
+    "practicalTitle": "Un po' di struttura.<br>Spazio per te.",
+    "practical": [
+      [
+        "Lezioni online",
+        "Studia da dove ti senti a tuo agio."
+      ],
+      [
+        "Orari flessibili per le lezioni individuali",
+        "Troveremo un orario regolare che vada bene a entrambi."
+      ],
+      [
+        "Domande e feedback",
+        "Durante le lezioni potrai fare domande e ricevere indicazioni."
+      ],
+      [
+        "Spostamento delle lezioni individuali",
+        "Le lezioni individuali possono essere spostate con almeno 24 ore di preavviso. Le cancellazioni tardive vengono addebitate, con flessibilità in caso di vere emergenze."
+      ]
+    ],
+    "callLabel": "Iniziamo con una conversazione",
+    "callTitle": "Il tuo russo inizia<br>con un ciao.",
+    "call": [
+      "Che tu preferisca l'attenzione individuale o imparare con gli altri, troveremo un formato adatto al tuo livello, ai tuoi obiettivi e ai tuoi orari.",
+      "Raccontami qualcosa del tuo russo e di ciò che vorresti raggiungere.",
+      "Inizieremo con una chiamata conoscitiva gratuita di 20–30 minuti per conoscerci, parlare della tua esperienza con il russo e dei tuoi obiettivi.",
+      "Ti spiegherò come funzionano le mie lezioni, risponderò alle tue domande e ti aiuterò a scegliere il formato più adatto a te.",
+      "Se ci troviamo bene, fisseremo la prima lezione e inizieremo a imparare il russo insieme!"
+    ],
+    "appLabel": "Tra una lezione e l'altra",
+    "appTitle": "Continua a coltivare il tuo russo.",
+    "app": [
+      "Sono co-creatrice di Grammilla, un'app per imparare il russo nata dalla mia esperienza di insegnante.",
+      "Combina spiegazioni grammaticali chiare, esercizi interattivi, vocabolario e audio per aiutarti a capire il russo e a esercitarti in autonomia.",
+      "Dall'alfabeto cirillico ai casi e ai verbi, Grammilla rende l'apprendimento più accessibile, un passo alla volta."
+    ],
+    "appCta": "Scopri Grammilla",
+    "reviewsTitle": "Le parole dei miei studenti",
+    "reviewNote": "Estratti dalle recensioni degli studenti, condivisi con il loro permesso.",
+    "translated": "Originale in italiano",
+    "originalEnglish": "Tradotto dall'inglese",
+    "reviews": [
+      [
+        "Azra",
+        "È un'insegnante molto organizzata, paziente e le sue spiegazioni sono sempre estremamente chiare. In poco tempo, con lei sto riuscendo a comprendere e imparare argomenti che in passato non ero mai riuscita ad afferrare."
+      ],
+      [
+        "Carolina",
+        "Studio russo con Liuba da un anno e mi sono trovata benissimo fin dalla prima lezione. È super paziente, comprensiva e ti fa sentire subito a tuo agio — cosa non da poco quando devi parlare in un’altra lingua."
+      ],
+      [
+        "Corinne",
+        "Le sue lezioni sono sia istruttive che interessanti e non potrei esprimere un giudizio più positivo sulla sua competenza didattica."
+      ]
+    ],
+    "faqTitle": "Utile da sapere",
+    "faq": [
+      [
+        "Posso iniziare da zero?",
+        "Sì. Le lezioni sono adatte a principianti assoluti e a studenti di livello intermedio e avanzato."
+      ],
+      [
+        "In quali lingue insegni?",
+        "Insegno il russo con spiegazioni in inglese o italiano."
+      ],
+      [
+        "Come funziona la chiamata conoscitiva?",
+        "La chiamata gratuita dura 20–30 minuti. Parleremo del tuo russo, dei tuoi obiettivi e del formato adatto. Richiedila via email: concorderemo insieme un orario."
+      ],
+      [
+        "Posso prepararmi al TORFL/TRKI?",
+        "Sì. Possiamo lavorare su esercizi mirati, strategie d'esame e un piano di studio strutturato."
+      ]
+    ],
+    "contactTitle": "Restiamo in contatto.",
+    "socialIntro": "Seguimi sui social per consigli sul russo, espressioni utili e curiosità sulla cultura russa.",
+    "contactText": "Hai una domanda sulle mie lezioni? Scrivimi un'email: sarò felice di aiutarti!",
+    "privacyLabel": "Privacy del sito",
+    "back": "Torna a Russ with Love",
+    "privacyTitle": "Privacy su questo sito",
+    "privacyIntro": "Russ with Love è il sito personale di Liuba dedicato all'insegnamento del russo. Contatto: grammilla.academy@gmail.com. P.IVA: 04015341201.",
+    "privacySections": [
+      [
+        "Navigazione",
+        "Questo sito statico non carica strumenti di analisi, tracker pubblicitari, contenuti social incorporati o font di terze parti. Non imposta cookie e non usa la memoria locale del browser. GitHub Pages ospita il sito e riceve dati tecnici di connessione, incluso il tuo indirizzo IP, quando lo visiti."
+      ],
+      [
+        "Email e link esterni",
+        "Le richieste di chiamata aprono la tua applicazione email. Questo sito non invia dati tramite moduli. Se invii un'email, il contenuto e il tuo indirizzo vengono utilizzati per rispondere e organizzare le lezioni. I link ai social e a Grammilla portano a servizi separati, con le proprie informative sulla privacy."
+      ],
+      [
+        "Domande e richieste",
+        "Per domande sui dati personali o richieste di accesso, rettifica o cancellazione della corrispondenza email, scrivi a grammilla.academy@gmail.com. Questa informativa del sito è separata dalla privacy policy dell'app Grammilla."
+      ]
+    ]
+  },
+  "ru": {
+    "title": "Уроки русского онлайн с Любой | Russ with Love",
+    "description": "Русский язык онлайн с Любой: преподаватель-носитель с опытом более 10 лет. Индивидуальные уроки, мини-группы и подготовка к ТРКИ с объяснениями на английском и итальянском.",
+    "nav": [
+      "Обо мне",
+      "Мой подход",
+      "Занятия и цены",
+      "Контакты"
+    ],
+    "skip": "Перейти к содержанию",
+    "languageLabel": "Язык страницы",
+    "eyebrow": "Уроки русского с Любой",
+    "h1": "Понимайте русский.<br><em>Говорите уверенно.</em>",
+    "hero": [
+      "Я не просто преподаю русский. Я помогаю ученикам разобраться в сложной грамматике, преодолеть страх говорить и превратить полученные знания в живое общение.",
+      "Терпение, понятные объяснения и индивидуальный подход помогают вам обрести уверенность и двигаться вперёд в своём темпе."
+    ],
+    "experience": "Более 10 лет опыта · Занятия на английском и итальянском",
+    "cta": "Запросить бесплатный вводный звонок",
+    "cta2": "Запросить свой бесплатный вводный звонок",
+    "emailSubject": "Бесплатный вводный звонок — Russ with Love",
+    "emailNote": "Отправьте запрос по email. Мы вместе подберём время; это ещё не подтверждённая запись.",
+    "portraitAlt": "Преподаватель русского языка Люба улыбается у доски с надписью «Привет! Меня зовут Люба»",
+    "caption": "Люба · Ваш преподаватель русского, из Сибири в Италию",
+    "strip": [
+      "Онлайн, где бы вы ни были",
+      "От первых слов до продвинутого уровня",
+      "Доброжелательная атмосфера"
+    ],
+    "aboutLabel": "Немного обо мне",
+    "aboutTitle": "Привет! Я Люба.",
+    "aside": "Любовь к языку, искусству и разговорам, которые нас сближают.",
+    "about": [
+      "Привет! Я Люба, преподаватель русского как иностранного, родом из Сибири. Сейчас я живу в Италии.",
+      "Я окончила Иркутский государственный педагогический университет и более 10 лет преподаю русский как иностранный — от начинающих с нуля до учеников продвинутого уровня.",
+      "Я постоянно развиваю свои преподавательские навыки на профессиональных курсах и международных семинарах. В числе моих квалификаций — курс по подготовке и организации экзаменов TORFL/ТРКИ, совместная программа университетов Пармы (Италия) и Санкт-Петербурга (Россия), а также Teaching Russian Online — курс повышения квалификации Университета Пармы.",
+      "Я также регулярно участвую в семинарах по современным методам преподавания и русскому как иностранному. В марте 2025 года я провела в Университете Пармы практический семинар по использованию искусственного интеллекта в преподавании русского языка.",
+      "Помимо преподавания, я увлекаюсь искусством, культурой и путешествиями. Я также окончила Академию изящных искусств в Болонье и с удовольствием привношу эти интересы в занятия."
+    ],
+    "audienceLabel": "Ваша отправная точка",
+    "audienceTitle": "Русский на вашем уровне.",
+    "audienceIntro": "Только начинаете или уже говорите по-русски? Я помогу вам сделать следующий шаг.",
+    "audience": [
+      [
+        "С нуля",
+        "Начните с основ и говорите по-русски уже на первом занятии."
+      ],
+      [
+        "Средний уровень",
+        "Укрепите знания грамматики, расширьте словарный запас и превратите знания в уверенное общение."
+      ],
+      [
+        "Продвинутый уровень",
+        "Развивайте беглость речи, выражайте сложные мысли и говорите естественнее."
+      ],
+      [
+        "Подготовка к TORFL/ТРКИ",
+        "Готовьтесь к экзамену с целевой практикой, эффективными стратегиями и чётким учебным планом."
+      ]
+    ],
+    "approachLabel": "Мой подход",
+    "approachTitle": "Сначала понять.<br>Потом освоить.",
+    "steps": "Понимать · Практиковать · Говорить",
+    "approach": [
+      "Я считаю, что понимать язык так же важно, как и практиковать его. Поэтому мои занятия сочетают понятные объяснения грамматики, практические упражнения и живой разговор.",
+      "Каждое занятие адаптировано к вашему уровню, целям и интересам. Мы движемся в вашем темпе и сосредотачиваемся на том, что вам нужнее всего.",
+      "И самое главное — я создаю дружелюбную, поддерживающую атмосферу, в которой можно задавать вопросы, ошибаться и обретать уверенность без давления."
+    ],
+    "formatsLabel": "Занятия и цены",
+    "formatsTitle": "Найдите свой формат.",
+    "individualLabel": "Индивидуально · 60 минут",
+    "individualTitle": "Ваши цели. Ваш темп.<br>Ваш русский.",
+    "individual": [
+      "Хотите больше говорить, наконец разобраться в сложной грамматике или подготовиться к экзамену?",
+      "На индивидуальных занятиях всё подстраивается под вас: уровень, интересы, цели и темп обучения.",
+      "Вас ждут понятные объяснения, много разговорной практики и индивидуальная обратная связь в доброжелательной атмосфере."
+    ],
+    "individualMeta": "Онлайн · Все уровни · Английский / Итальянский · 60 минут",
+    "groupLabel": "Мини-группы · До 6 учеников",
+    "groupTitle": "Учитесь вместе. Говорите больше.<br>Сохраняйте мотивацию.",
+    "group": [
+      "Нравится учиться с другими? В небольших группах практика русского становится более интерактивной, общительной и доступной по цене.",
+      "Вы будете изучать грамматику и лексику, практиковать живое общение и выполнять задания с учениками похожего уровня.",
+      "В группе максимум 6 человек, поэтому у каждого есть время говорить, задавать вопросы и получать обратную связь."
+    ],
+    "groupMeta": "Онлайн · Группы по уровню · Английский / Итальянский · 90 минут",
+    "groupLevel": "Группы формируются по уровню. Если вы уже учили русский, мы оценим ваш уровень и подберём подходящую группу.",
+    "groupPrice": "€225 с человека за полный курс: 10 занятий по 90 минут (всего 15 часов). €22,50 за занятие.",
+    "pairTitle": "Учитесь вдвоём",
+    "pairText": "В мини-группе из 2 человек больше индивидуального внимания и есть партнёр для практики. Онлайн · Английский / Итальянский · 80 минут за занятие.",
+    "pricingTitle": "Цены на индивидуальные занятия",
+    "pairPricingTitle": "Занятия вдвоём · цена с человека",
+    "package": "Пакет",
+    "day": "Днём",
+    "evening": "Вечером",
+    "individualTimes": "Днём: до 17:30 · Вечером: с 17:30",
+    "pairTimes": "Днём: до 17:00 · Вечером: с 17:00",
+    "timezone": "Всё время указано по Италии (Europe/Rome), с учётом перехода на летнее и зимнее время.",
+    "individualPackages": [
+      "1 час · 1 занятие",
+      "5 часов · 5 занятий",
+      "10 часов · 10 занятий"
+    ],
+    "pairPackages": [
+      "8 часов · 6 занятий",
+      "20 часов · 15 занятий"
+    ],
+    "priceNote": "На вводном звонке обсудим формат, расписание и наличие мест в группах.",
+    "practicalLabel": "Как всё устроено",
+    "practicalTitle": "Понятная организация.<br>Внимание к вам.",
+    "practical": [
+      [
+        "Занятия онлайн",
+        "Учитесь там, где вам удобно."
+      ],
+      [
+        "Гибкое расписание индивидуальных занятий",
+        "Мы найдём регулярное время, которое подходит нам обоим."
+      ],
+      [
+        "Вопросы и обратная связь",
+        "Во время занятий вы сможете задавать вопросы и получать рекомендации."
+      ],
+      [
+        "Перенос индивидуальных занятий",
+        "Индивидуальное занятие можно перенести, предупредив минимум за 24 часа. Поздние отмены оплачиваются; при настоящих чрезвычайных обстоятельствах возможен гибкий подход."
+      ]
+    ],
+    "callLabel": "Начнём с разговора",
+    "callTitle": "Ваш русский начинается<br>со слова «привет».",
+    "call": [
+      "Предпочитаете индивидуальное внимание или любите учиться с другими? Мы найдём формат, который подходит вашему уровню, целям и расписанию.",
+      "Расскажите немного о своём русском и о том, чего вы хотели бы достичь.",
+      "Начнём с бесплатного вводного звонка на 20–30 минут: познакомимся, поговорим о вашем опыте изучения русского и обсудим цели.",
+      "Я объясню, как проходят мои занятия, отвечу на вопросы и помогу выбрать подходящий формат обучения.",
+      "Если мы поймём, что подходим друг другу, назначим первый урок и начнём учить русский вместе!"
+    ],
+    "appLabel": "Между занятиями",
+    "appTitle": "Продолжайте развивать свой русский.",
+    "app": [
+      "Я — соавтор Grammilla, приложения для изучения русского языка, родившегося из моего преподавательского опыта.",
+      "Оно объединяет понятные объяснения грамматики, интерактивные упражнения, лексику и аудио, чтобы вы могли понимать русский и заниматься самостоятельно.",
+      "От кириллицы до падежей и глаголов — Grammilla делает обучение доступнее, шаг за шагом."
+    ],
+    "appCta": "Познакомиться с Grammilla",
+    "reviewsTitle": "Несколько слов от моих учеников",
+    "reviewNote": "Фрагменты отзывов учеников, опубликованные с разрешения.",
+    "translated": "Перевод с итальянского",
+    "originalEnglish": "Перевод с английского",
+    "reviews": [
+      [
+        "Azra",
+        "Она очень организованный и терпеливый преподаватель, а её объяснения всегда предельно ясны. За короткое время я смогла понять и освоить темы, в которых раньше никак не могла разобраться."
+      ],
+      [
+        "Carolina",
+        "Я учу русский с Любой уже год и с первого занятия чувствовала себя очень комфортно. Она невероятно терпеливая, понимающая и сразу помогает почувствовать себя непринуждённо — а это очень важно, когда говоришь на другом языке."
+      ],
+      [
+        "Corinne",
+        "Её занятия и познавательны, и интересны, и я не могу не дать самую высокую оценку её преподавательскому мастерству."
+      ]
+    ],
+    "faqTitle": "Полезно знать",
+    "faq": [
+      [
+        "Можно начать с нуля?",
+        "Да. Занятия подходят как начинающим с нуля, так и ученикам среднего и продвинутого уровня."
+      ],
+      [
+        "На каких языках проходят занятия?",
+        "Я преподаю русский с объяснениями на английском или итальянском."
+      ],
+      [
+        "Что будет на вводном звонке?",
+        "Бесплатный звонок длится 20–30 минут. Обсудим ваш русский, цели и подходящий формат. Отправьте запрос по email — время согласуем вместе."
+      ],
+      [
+        "Можно подготовиться к TORFL/ТРКИ?",
+        "Да. Мы можем работать над целевыми заданиями, экзаменационными стратегиями и структурированным учебным планом."
+      ]
+    ],
+    "contactTitle": "Будем на связи.",
+    "socialIntro": "Подписывайтесь на мои соцсети: советы по русскому, полезные выражения и знакомство с русской культурой.",
+    "contactText": "Есть вопрос о занятиях? Напишите мне на email — буду рада помочь!",
+    "privacyLabel": "Конфиденциальность сайта",
+    "back": "Вернуться на Russ with Love",
+    "privacyTitle": "Конфиденциальность на этом сайте",
+    "privacyIntro": "Russ with Love — личный сайт преподавателя русского языка Любы. Контакт: grammilla.academy@gmail.com. P.IVA: 04015341201.",
+    "privacySections": [
+      [
+        "Просмотр сайта",
+        "Этот статический сайт не загружает аналитику, рекламные трекеры, встроенные соцсети или сторонние шрифты. Он не устанавливает cookies и не использует локальное хранилище браузера. Сайт размещён на GitHub Pages; при посещении хостинг получает технические данные соединения, включая ваш IP-адрес."
+      ],
+      [
+        "Email и внешние ссылки",
+        "Кнопки запроса на звонок открывают вашу почтовую программу. Сам сайт ничего не отправляет. Если вы отправите письмо, его содержание и ваш адрес будут использованы для ответа и организации занятий. Ссылки на соцсети и Grammilla ведут на отдельные сервисы с собственными правилами конфиденциальности."
+      ],
+      [
+        "Вопросы и обращения",
+        "С вопросами о персональных данных или запросами на доступ, исправление либо удаление переписки обращайтесь на grammilla.academy@gmail.com. Это уведомление для сайта отдельно от политики конфиденциальности приложения Grammilla."
+      ]
+    ]
+  }
+}

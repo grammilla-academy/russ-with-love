@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /russ-with-love/
+Sitemap: https://grammilla-academy.github.io/russ-with-love/sitemap.xml

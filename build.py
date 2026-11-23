@@ -2,12 +2,14 @@
 from pathlib import Path
 import html
 import json
+import hashlib
 from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://grammilla-academy.github.io/russ-with-love/'
 DATA = json.loads((ROOT / 'content.json').read_text(encoding='utf-8'))
 ROUTES = {'en': '', 'it': 'it/', 'ru': 'ru/'}
+GOOGLE_SITE_VERIFICATION = 'zuluS6yuf3MvCARNWKIKWjeLZQMuFsAksyqGJu3H5Sc'
 SOCIAL = [
     ('YouTube', 'https://www.youtube.com/@russwithlove', '<rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 8 6 4-6 4Z" fill="var(--paper)"/>'),
     ('Instagram', 'https://www.instagram.com/russ.with.love/', '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2"/>'),
@@ -29,15 +31,16 @@ def head(lang, privacy=False):
     url = BASE + route + ('privacy.html' if privacy else '')
     title = d['privacyTitle'] + ' | Russ with Love' if privacy else d['title']
     description = d['privacyIntro'] if privacy else d['description']
+    style_version = hashlib.sha256((ROOT/'site.css').read_bytes()).hexdigest()[:10]
     alternates = ''.join(f'<link rel="alternate" hreflang="{k}" href="{BASE}{v}{"privacy.html" if privacy else ""}">' for k, v in ROUTES.items())
     return f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#fbf8f3">
+<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#fbf8f3"><meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
 <link rel="canonical" href="{url}">{alternates}<link rel="alternate" hreflang="x-default" href="{BASE}{'privacy.html' if privacy else ''}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Russ with Love"><meta property="og:url" content="{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}">
 <meta property="og:locale" content="{dict(en='en_GB',it='it_IT',ru='ru_RU')[lang]}"><meta property="og:image" content="{BASE}assets/social.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(d['portraitAlt'])}">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(description)}"><meta name="twitter:image" content="{BASE}assets/social.jpg">
-<link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg"><link rel="icon" sizes="32x32" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}site.css"></head><body>
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(description)}"><meta name="twitter:image" content="{BASE}assets/social.jpg"><meta name="twitter:image:alt" content="{e(d['portraitAlt'])}">
+<link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg"><link rel="icon" sizes="32x32" href="{prefix}assets/favicon.png"><link rel="stylesheet" href="{prefix}site.css?v={style_version}"></head><body>
 <a class="skip" href="#main">{e(d['skip'])}</a><header><div class="wrap topbar"><a class="brand" href="./" lang="en">Russ <em>with Love</em><span class="heart" aria-hidden="true">♡</span></a>
 <nav aria-label="{e(d['nav'][0] + ' / ' + d['nav'][3])}">{''.join(f'<a href="./#{anchor}">{e(label)}</a>' for anchor,label in zip(['about','approach','lessons','contact'],d['nav']))}</nav>
 <div class="languages" role="navigation" aria-label="{e(d['languageLabel'])}">{''.join(f'<a lang="{k}" hreflang="{k}" href="{prefix}{v}{"privacy.html" if privacy else ""}"'+(' aria-current="page"' if k==lang else '')+f'>{k.upper()}</a>' for k,v in ROUTES.items())}</div></div></header>'''
@@ -57,9 +60,9 @@ def build(lang):
     mail = 'mailto:grammilla.academy@gmail.com?subject=' + quote(d['emailSubject'])
     cta = lambda label: f'<a class="button" href="{mail}">{e(label)}</a>'
     graph = {'@context':'https://schema.org','@graph':[
-        {'@type':'Person','@id':BASE+'#liuba','name':'Liuba','alternateName':'Люба','jobTitle':{'en':'Russian language teacher','it':'Insegnante di russo','ru':'Преподаватель русского языка'}[lang], 'url':BASE,'image':BASE+'assets/liuba-1080.webp','sameAs':[s[1] for s in SOCIAL]},
+        {'@type':'Person','@id':BASE+'#liuba','name':'Liuba','alternateName':'Люба','jobTitle':{'en':'Russian language teacher','it':'Insegnante di russo','ru':'Преподаватель русского языка'}[lang], 'description':d['about'][0], 'knowsLanguage':['Russian','English','Italian'], 'url':BASE,'image':BASE+'assets/liuba-1080.webp','sameAs':[s[1] for s in SOCIAL]},
         {'@type':'WebSite','@id':BASE+'#website','name':'Russ with Love','url':BASE,'inLanguage':['en','it','ru']},
-        {'@type':'WebPage','url':BASE+ROUTES[lang], 'name':d['title'],'description':d['description'],'inLanguage':lang,'isPartOf':{'@id':BASE+'#website'},'about':{'@id':BASE+'#liuba'}}]}
+        {'@type':'WebPage','@id':BASE+ROUTES[lang]+'#page','url':BASE+ROUTES[lang], 'name':d['title'],'description':d['description'],'inLanguage':lang,'isPartOf':{'@id':BASE+'#website'},'about':{'@id':BASE+'#liuba'},'primaryImageOfPage':{'@type':'ImageObject','contentUrl':BASE+'assets/liuba-1080.webp','width':1080,'height':1080,'caption':d['portraitAlt']}}]}
     page = head(lang)+f'''<main id="main"><div class="wrap"><section class="hero" aria-labelledby="hero-title"><div><p class="eyebrow">{e(d['eyebrow'])}</p><h1 id="hero-title">{d['h1']}</h1>{paragraphs(d['hero'])}<p class="experience">{e(d['experience'])}</p>{cta(d['cta'])}<p class="note">{e(d['emailNote'])}</p></div><figure class="portrait"><img src="{prefix}assets/liuba-1080.webp" srcset="{prefix}assets/liuba-540.webp 540w, {prefix}assets/liuba-1080.webp 1080w" sizes="(max-width:740px) calc(100vw - 36px), (max-width:1250px) 45vw, 520px" width="1254" height="1254" alt="{e(d['portraitAlt'])}" fetchpriority="high"><figcaption>{e(d['caption'])}</figcaption></figure></section><div class="intro-line">{''.join(f'<span>{e(x)}</span>' for x in d['strip'])}</div>
 <section class="section about" id="about" aria-labelledby="about-title"><div><p class="eyebrow">{e(d['aboutLabel'])}</p><h2 id="about-title">{e(d['aboutTitle'])}</h2><p class="aside">{e(d['aside'])}</p></div><div class="body">{paragraphs(d['about'])}</div></section></div>
 <section class="tint section" aria-labelledby="audience-title"><div class="wrap"><div class="section-heading"><p class="eyebrow">{e(d['audienceLabel'])}</p><h2 id="audience-title">{e(d['audienceTitle'])}</h2><p>{e(d['audienceIntro'])}</p></div><div class="audience">{''.join(f'<article><h3>{e(t)}</h3><p>{e(p)}</p></article>' for t,p in d['audience'])}</div></div></section>

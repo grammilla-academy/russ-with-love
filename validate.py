@@ -32,6 +32,7 @@ for lang,route in build.ROUTES.items():
         assert canonical==[expected],canonical
         alternate=[a for t,a in page.tags if t=='link' and a.get('rel')=='alternate']
         assert {a['hreflang'] for a in alternate}=={'en','it','ru','x-default'}
+        assert any(t=='meta' and a.get('name')=='google-site-verification' and a.get('content')==build.GOOGLE_SITE_VERIFICATION for t,a in page.tags)
         for t,a in page.tags:
             for key in ['href','src']:
                 if key not in a: continue

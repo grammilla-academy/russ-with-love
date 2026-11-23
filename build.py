@@ -10,6 +10,7 @@ BASE = 'https://grammilla-academy.github.io/russ-with-love/'
 DATA = json.loads((ROOT / 'content.json').read_text(encoding='utf-8'))
 ROUTES = {'en': '', 'it': 'it/', 'ru': 'ru/'}
 GOOGLE_SITE_VERIFICATION = 'zuluS6yuf3MvCARNWKIKWjeLZQMuFsAksyqGJu3H5Sc'
+BING_SITE_VERIFICATION = '674CF7AF30E9AA2058EB2AFCB538A620'
 SOCIAL = [
     ('YouTube', 'https://www.youtube.com/@russwithlove', '<rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 8 6 4-6 4Z" fill="var(--paper)"/>'),
     ('Instagram', 'https://www.instagram.com/russ.with.love/', '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2"/>'),
@@ -35,7 +36,7 @@ def head(lang, privacy=False):
     alternates = ''.join(f'<link rel="alternate" hreflang="{k}" href="{BASE}{v}{"privacy.html" if privacy else ""}">' for k, v in ROUTES.items())
     return f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#fbf8f3"><meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">
+<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="theme-color" content="#fbf8f3"><meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}"><meta name="msvalidate.01" content="{BING_SITE_VERIFICATION}">
 <link rel="canonical" href="{url}">{alternates}<link rel="alternate" hreflang="x-default" href="{BASE}{'privacy.html' if privacy else ''}">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Russ with Love"><meta property="og:url" content="{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}">
 <meta property="og:locale" content="{dict(en='en_GB',it='it_IT',ru='ru_RU')[lang]}"><meta property="og:image" content="{BASE}assets/social.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(d['portraitAlt'])}">

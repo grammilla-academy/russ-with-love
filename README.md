@@ -4,9 +4,9 @@
 
 ## Адрес и статус
 
-Планируемый адрес: https://grammilla-academy.github.io/russ-with-love/
+Опубликованный адрес: https://grammilla-academy.github.io/russ-with-love/
 
-На 23 ноября 2026 сайт подготовлен и проверен локально. После входа владельца подтверждён аккаунт grammilla-academy; повторная проверка с авторизацией показала отсутствие russ-with-love. Создан отдельный публичный репозиторий https://github.com/grammilla-academy/russ-with-love . Развёртывание Pages ещё предстоит проверить; не считать наличие репозитория подтверждением публикации.
+Опубликован и проверен 23 ноября 2026. После входа владельца подтверждён аккаунт grammilla-academy; повторная проверка с авторизацией показала отсутствие russ-with-love. Создан отдельный публичный репозиторий https://github.com/grammilla-academy/russ-with-love . Pages включён из main, /(root). Коммит исходного опубликованного сайта: `52b90f902950fbfb311afa010d3d4adbe80d8ce2`; последующие коммиты отчётов не меняют видимые страницы. Публичные EN/IT/RU, три уведомления о конфиденциальности, sitemap, robots и изображения вернули HTTP 200. Боевой сайт открыт в браузере: фото загружается, canonical и ссылки языков правильные. Локальная копия синхронизирована с origin/main.
 
 ## Исходники
 
@@ -68,5 +68,7 @@ python -m http.server 51423 --bind 127.0.0.1
 
 1. Google Search Console: добавить URL-prefix property `https://grammilla-academy.github.io/russ-with-love/`; выбрать HTML-файл или meta tag. Получить выданный владельцу файл/код и разместить, не придумывая verification token. Подтвердить владение в интерфейсе и отправить `sitemap.xml`. Domain property для github.io без управления DNS не использовать.
 2. Bing Webmaster Tools: импортировать подтверждённый ресурс Search Console либо добавить URL и его реальный verification token/файл; после подтверждения отправить sitemap. Пока не выполнено: доступа к этим аккаунтам нет.
+
+Официальные инструкции, сверенные при запуске: https://support.google.com/webmasters/answer/34592 , https://support.google.com/webmasters/answer/9008080 , https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b . Вход в GitHub не предоставляет доступ к Google Search Console или Bing.
 
 Полезные будущие самостоятельные страницы: русский с нуля и кириллица; как понимать падежи; подготовка к TORFL/TRKI; русский для италоязычных. Публиковать содержательные авторские материалы с собственными примерами, не создавать страницы только ради ключевых слов.
